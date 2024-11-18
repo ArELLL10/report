@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text */
+    font-family: Arial, sans-serif; /* Optional: set a font */
+    position: relative; /* Needed for positioning the button */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.image-container {
+    display: inline-block; /* Allows images to be inline */
+    margin: 10px; /* Adds space between images */
+}
+.button {
+    padding: 10px 20px; /* Button padding */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Aligns with other elements */
+    margin-top: 20px; /* Space above the button */
+}
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.button-container {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    display: flex; /* Use flexbox for alignment */
+    gap: 10px; /* Space between buttons */
+}
